@@ -40,7 +40,7 @@ This project is a **technical sandbox** designed to:
 - Unit and integration testing
 
 ## Live Demo
-👉 [Play the demo here](https://yourusername.github.io/game-demo)
+[Check the demo here](https://vuknt.github.io/shop-game-demo/)
 
 ## Notes
 This repository hosts only the compiled `/dist` files.  
