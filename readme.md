@@ -1,4 +1,7 @@
 # Game Demo (Work in Progress)
+<img width="2504" height="1244" alt="image" src="https://github.com/user-attachments/assets/eab78a23-66c2-48d4-801d-4606d4b057ee" />
+
+
 
 This repository hosts the **compiled demo build** of my browser-based shop simulation game.  
 The source code is private, but this demo is deployed via GitHub Pages to showcase current progress.
