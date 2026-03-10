@@ -8,7 +8,7 @@ A browser-based game prototyped with Vue & TS where players craft, brew, and sel
 The focus is on **system design, data flow, and simulation logic** rather than graphics.
 
 ## Current Features
-- **Player UI**: Displays health, gold, reputation, clock, and customer arrival probability per tick.
+- **Player UI**: Displays reactive health, gold, reputation, clock, and customer arrival probability per tick.
 - **Ingredients**: JSON dataset of ingredients (planned migration to DB).
 - **Crafting & Brewing**: Items can be crafted or brewed until ingredients are 'out of stock'.
 - **Shop Tab**: Crafted/brewed items appear here and can be sold to customers if set on the **Sale Counter** and requested.

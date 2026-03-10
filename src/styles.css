@@ -1,0 +1,44 @@
+@import 'tailwindcss';
+@theme {
+
+  --drop-shadow-custom: 0px 0px 9px black;
+
+  @keyframes ping-fade {
+    0% {
+    }
+    100% {
+      opacity: 0;
+    }
+  }
+
+@keyframes text-glow {
+  0%, 100% {
+    text-shadow: 0 0 30px white, 0 0 10px white, 0 0 20px white;
+  }
+  50% {
+    text-shadow: 0 0 30px white, 0 0 20px white, 0 0 20px white;
+  }
+}
+
+  --animate-text-glow: text-glow 6s ease-in-out infinite;
+
+
+  --animate-ping-fade-once: ping-fade 3s cubic-bezier(0, 0, 0.6, 1) 1 forwards;
+
+  @keyframes open-rect-y {
+    0% {
+      transform: scaleY(0);
+      opacity: 1; /* optional fade-in */
+    }
+    100% {
+      transform: scaleY(1);
+      opacity: 1;
+    }
+  }
+
+  --animate-open-rect-y: open-rect-y 3s cubic-bezier(.3, .3, 0, 1) forwards;
+
+
+
+
+}
